@@ -1,2 +1,2 @@
 # React Template
-Web Development
+Web Development with TypeScript
