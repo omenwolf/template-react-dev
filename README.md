@@ -1,2 +1,2 @@
-# david-hong-dev
-Personal Website Portfolio
+# React Template
+Web Development
