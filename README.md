@@ -6,4 +6,3 @@ Web Development with TypeScript
 - node.js
 - express.js
 - react
-- typescript
