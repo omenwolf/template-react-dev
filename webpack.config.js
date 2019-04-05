@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 const config = {
   entry: './src/index.tsx',
@@ -33,6 +34,9 @@ const config = {
       }
     ]
   },
+  plugins: [
+    new CompressionPlugin()
+  ],
   resolve: {
     extensions: [
       '.js',
