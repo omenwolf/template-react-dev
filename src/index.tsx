@@ -3,4 +3,4 @@ import * as ReactDOM from "react-dom";
 import App from "./app";
 
 const app = document.getElementById("app");
-ReactDOM.render(<App name="Marc" />, app);
+ReactDOM.render(<App name="untitled" />, app);
