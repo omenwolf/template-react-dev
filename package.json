@@ -10,7 +10,7 @@
     "clean": "rm dist/bundle.js",
     "build-dev": "webpack -d --mode development --watch",
     "build-prod": "webpack -p --mode production",
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "server-dev": "nodemon ./build/server.js",
     "build": "tsc"
   },
   "dependencies": {
@@ -29,6 +29,7 @@
     "@types/react-dom": "^16.8.3",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
+    "nodemon": "^1.18.10",
     "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
     "tslint": "^5.15.0",
